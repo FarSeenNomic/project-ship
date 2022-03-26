@@ -1,0 +1,19 @@
+Don't know what part of someone's body to hit? Just use a table!
+
+{\general_body}
+D6
+1  Head
+2  Left arm
+3  Right arm
+4  Torso
+5  Left leg
+6  Right leg
+
+{\specific_body}
+2D6 1          2           3           4            5          6
+1   Left ear   Right ear   Left eye    Right eye    Nose       Mouth
+2   Shoulder   Upper arm   Elbow       Forearm      Wrist      Hand
+3   Shoulder   Upper arm   Elbow       Forearm      Wrist      Hand
+4   Left upper Right upper Left middle Right middle Left lower Right lower
+5   Hip        Thigh       Knee        Shin/calf    Ankle      Foot
+6   Hip        Thigh       Knee        Shin/calf    Ankle      Foot

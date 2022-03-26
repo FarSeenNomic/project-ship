@@ -1,0 +1,59 @@
+Ruleset:
+Everyone starts with 0 XP, 5 HP and the basic skill 'Do Anything [1]'.
+Any time you preform an action by using a skill, you roll a number of d6's equal to it's level. If your roll is higher than the opposing value, you do it.
+Any time you take damage, you lose 1 HP.
+If you roll all 6s, you get a level up in that skill. Make a new skill based off of what you were doing with that action.
+Every roll you fail you get 1 XP.
+You can spend 1 XP to reroll a die (no limit to amount you can spend, how many times you can reroll a single or multiple die), but this only counts towards either making the action better or getting a level, not both.
+Or, you can spend XP equal to a skill's level to level up that skill.
+
+For this story, also take 2 of:
+	* A level 2 skill of something you brought with you (Dagger=Stabbing [2]/Pistol=Shooting [2])
+	* A level 2 skill of a talent you trained in (Piloting [2]/Drone Control [2])
+	* A first level skill that you couldn't normally get, including:
+		magical (Conjure/Precognition/Transmutation [1])
+		superpower (Telepathy/Invisibity/Telekinesis [1])
+		or non-magical (Hands that are just on fire /Omnilingualism [1])
+
+Remember that if you take a first level skill, it is only going to be at the strength of any other first level skill like "Do Anything [1]". So your Precognition [1] might be enough to dodge someone's Punch [1], but might do nothing to help against Battle Drone Control [3] or Gun Trickshot [4].
+
+Players aren't the only ones with skills, for example, a wood door might be:
+Locked Wood Door:
+	Do Anything [1]: Does anything a door could normally do
+	Resist [2]: Resists breaking, being opened when it shouldn't be, opened the wrong way
+	Strong lock [3]: Doesn't like being lock picked
+
+Guide:
+The world and your character is mostly undefined. Think of them currently as an out of focus blurry figure. Make character neutral descriptions of your actions and when you attempt some actions and gain some skill ups related to them then your character will start to focus in and be defined.
+You aren't supposed to guide the character to an idea you already have, but let it organically grow and surprise you. Had your character gained a skill up whilst trying to track someone, or smell something, then gaining Dog [2] and from now on being defined as a dog would be acceptable and amusing.
+
+On your "turn":
+'Turn' here used lightly, as you can go whenever you want.
+You will write down what your character does, a bit of the story; this only needs to be maybe a sentance or two if you're doing something obvious, or maybe 3-4 if you want to describe in more detail what you're doing. If you can, let someone else control the reaction to what happens.
+Your text will end with an action, a die roll, in the form {\1d6}
+
+Story background:
+You've just arrived at the Haliastur, a faster-than-light space ship set for deep space, soon to be leaving the system. Pirates, solar flares, and giant spiders might be lurking, but the adventure of seeing an new world alien to you drives you. Not that your alien crewmates are any less fun to be around.
+
+The ship has the systems:
+	Engines: Used for making the ship go forward quickly, and enabling the warp engine.
+	Medbay: Nanobots in this room will slowly repair your body.
+	Oxygen: You probably need to keep this room intact.
+	Piloting: Works in conjunction with the engines, the pilot picks where to warp to next and how to dodge.
+	Sensors: You can see anything in the ship from here, and parts of any other ships nearby.
+	Shields: Not very good at stoping physical objects like missiles, but does wonders at stopping lasers.
+	Crew Teleporter: 
+	Drone Control: 
+	Weapon Control: 
+	Hacking: 
+
+Other ships might have:
+	Cloaking
+	Artillery Beam
+	Backup Battery
+	Clone Bay
+	Flak Artillery
+	Mind Control
+
+https://powerlisting.fandom.com/wiki/Magic
+https://ftl.fandom.com/wiki/The_Kestrel_Cruiser
