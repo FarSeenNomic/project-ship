@@ -75,12 +75,12 @@ def replace_code_eval(x):
     return f"[py:{x.group(1)} = {eval(x.group(1))}]"
 
 def convert(content):
-    content = re.sub(r'{(\d+)d(\d+)(?:th(\d+))?(?:tl(\d+))?(?:dh(\d+))?(?:dl(\d+))?(?:\w*(\+|-)\w*(\d+))?}', replace_die, content)
-    content = re.sub(r'{percent}', replace_percent, content)
-    content = re.sub(r'{general body}', replace_general_body, content)
-    content = re.sub(r'{specific body}', replace_specific_body, content)
-    content = re.sub(r'{py: ?(.+?)}', replace_code_eval, content)
-    return content
+    contentv = re.sub(r'{(\d+)d(\d+)(?:th(\d+))?(?:tl(\d+))?(?:dh(\d+))?(?:dl(\d+))?(?:\w*(\+|-)\w*(\d+))?}', replace_die, content)
+    contentv = re.sub(r'{percent}', replace_percent, contentv)
+    contentv = re.sub(r'{general body}', replace_general_body, contentv)
+    contentv = re.sub(r'{specific body}', replace_specific_body, contentv)
+    contentv = re.sub(r'{py: ?(.+?)}', replace_code_eval, contentv)
+    return contentv
 
 c="""roll: {6d6}
 roll: {6d8}
