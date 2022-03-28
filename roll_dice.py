@@ -101,15 +101,15 @@ roll: {6d6-2}
 if __name__ == '__main__':
     git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
     if not git_status.stdout.decode().strip():
-        with open("./story.txt", "a+") as story:
+        with open("story.txt", "r+") as story:
             text = story.read()
             con = convert(text)
             if con == text:
                 print("No rolls found in story.")
             else:
-                f.seek(0)
+                story.seek(0)
                 story.write(text)
-                f.truncate()
+                story.truncate()
                 print("Something spicy happened.")
     else:
         print("Cannot roll die while files are in limbo!")
