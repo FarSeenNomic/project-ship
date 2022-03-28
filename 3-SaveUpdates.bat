@@ -1,2 +1,2 @@
-git add 2-story
+git add 2-story/*
 pause
