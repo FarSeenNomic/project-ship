@@ -95,4 +95,10 @@ roll: {6d6-2}
 {py: 2 + 2}
 {py: randint(3)+5}
 """
-print(convert(c))
+#print(convert(c))
+
+git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
+if not git_status.stdout.decode().strip().split("\n"):
+    with open("./story.txt", "rw") as story:
+        story.write(convert(story.read()))
+
