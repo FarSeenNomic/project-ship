@@ -100,7 +100,7 @@ roll: {6d6-2}
 
 if __name__ == '__main__':
     git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
-    if not git_status.stdout.decode().strip().split("\n"):
+    if not git_status.stdout.decode().strip():
         with open("./story.txt", "w+") as story:
             text = story.read()
             con = convert(text)
@@ -113,4 +113,5 @@ if __name__ == '__main__':
                 print("Something spicy happened.")
     else:
         print("Cannot roll die while files are in limbo!")
+    print("Press the any key to continue...")
     input()
