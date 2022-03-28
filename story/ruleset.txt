@@ -30,7 +30,7 @@ You aren't supposed to guide the character to an idea you already have, but let 
 On your "turn":
 'Turn' here used lightly, as you can go whenever you want.
 You will write down what your character does, a bit of the story; this only needs to be maybe a sentance or two if you're doing something obvious, or maybe 3-4 if you want to describe in more detail what you're doing. If you can, let someone else control the reaction to what happens.
-Your text will end with an action, a die roll, in the form {\1d6}
+Your text will end with an action, a die roll, in the form {nd6}, where n is your skill's level.
 
 Story background:
 You've just arrived at the Haliastur, a faster-than-light space ship set for deep space, soon to be leaving the system. Pirates, solar flares, and giant spiders might be lurking, but the adventure of seeing an new world alien to you drives you. Not that your alien crewmates are any less fun to be around.

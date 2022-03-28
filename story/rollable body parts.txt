@@ -1,6 +1,6 @@
 Don't know what part of someone's body to hit? Just use a table!
 
-{\general body}
+{general body}
 D6
 1  Head
 2  Left arm
@@ -9,7 +9,7 @@ D6
 5  Left leg
 6  Right leg
 
-{\specific body}
+{specific body}
 2D6             1          2           3           4            5          6
 1   Head        Left ear   Right ear   Left eye    Right eye    Nose       Mouth
 2   Left arm    Shoulder   Upper arm   Elbow       Forearm      Wrist      Hand
