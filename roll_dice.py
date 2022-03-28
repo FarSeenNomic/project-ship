@@ -108,7 +108,7 @@ if __name__ == '__main__':
                 print("No rolls found in story.")
             else:
                 story.seek(0)
-                story.write(text)
+                story.write(con)
                 story.truncate()
                 print("Something spicy happened.")
     else:
