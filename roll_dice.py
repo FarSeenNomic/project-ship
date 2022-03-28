@@ -1,4 +1,5 @@
-import subprocess, re
+import re
+import subprocess
 
 show = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True)
 seed = not_random_number = int(show.stdout.decode().strip(), 16)
@@ -48,7 +49,7 @@ def replace_die(x):
     if addsub:       appstr += f" {connum:+}"
     appstr += f" = ({'+'.join(str(i) for i in rolls)}"
     if addsub:       appstr += f"{connum:+}"
-    appstr += f") = {total}]"    
+    appstr += f") = {total}]"
 
     return appstr
 
@@ -97,8 +98,19 @@ roll: {6d6-2}
 """
 #print(convert(c))
 
-git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
-if not git_status.stdout.decode().strip().split("\n"):
-    with open("./story.txt", "rw") as story:
-        story.write(convert(story.read()))
-
+if __name__ == '__main__':
+    git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
+    if not git_status.stdout.decode().strip().split("\n"):
+        with open("./story.txt", "w+") as story:
+            text = story.read()
+            con = convert(text)
+            if con == text:
+                print("No rolls found in story.")
+            else:
+                f.seek(0)
+                story.write(text)
+                f.truncate()
+                print("Something spicy happened.")
+    else:
+        print("Cannot roll die while files are in limbo!")
+    input()
