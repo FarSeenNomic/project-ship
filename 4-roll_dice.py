@@ -101,7 +101,7 @@ roll: {6d6-2}
 if __name__ == '__main__':
     git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
     if not git_status.stdout.decode().strip():
-        story = open("story.txt", "r+")
+        story = open("./story/story.txt", "r+")
         text = story.read()
         con = convert(text)
         if con == text:
