@@ -112,7 +112,7 @@ if __name__ == '__main__':
             story.write(con)  # overwrite entire file
             story.truncate()  # if shorter, delete rest
             story.close()     # push cache to disk for git
-            subprocess.run(["git", "add", "story.txt"]) # tell git you changed this bit and want to save it
+            subprocess.run(["git", "add", "./2-story/story.txt"]) # tell git you changed this bit and want to save it
             subprocess.run(["git", "commit", "-m", "Rolled die for story."]) # save the story
             print("Something spicy happened.")
     else:
