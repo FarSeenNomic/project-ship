@@ -101,19 +101,20 @@ roll: {6d6-2}
 if __name__ == '__main__':
     git_status = subprocess.run(["git", "status", "--porcelain"], capture_output=True)
     if not git_status.stdout.decode().strip():
-        with open("story.txt", "r+") as story:
-            text = story.read()
-            con = convert(text)
-            if con == text:
-                print("No rolls found in story.")
-            else:
-                story.seek(0)     # go to start of file
-                story.write(con)  # overwrite entire file
-                story.truncate()  # if shorter, delete rest
-                story.flush()     # push cache to disk for git
-                subprocess.run(["git", "add", "story.txt"]) # tell git you changed this bit and want to save it
-                subprocess.run(["git", "commit", "-m", "Rolled die for story."]) # save the story
-                print("Something spicy happened.")
+        story = open("story.txt", "r+"):
+        text = story.read()
+        con = convert(text)
+        if con == text:
+            print("No rolls found in story.")
+            story.close()
+        else:
+            story.seek(0)     # go to start of file
+            story.write(con)  # overwrite entire file
+            story.truncate()  # if shorter, delete rest
+            story.close()     # push cache to disk for git
+            subprocess.run(["git", "add", "story.txt"]) # tell git you changed this bit and want to save it
+            subprocess.run(["git", "commit", "-m", "Rolled die for story."]) # save the story
+            print("Something spicy happened.")
     else:
         print("Cannot roll die while files are in limbo!")
     print("Press the any key to continue...")
