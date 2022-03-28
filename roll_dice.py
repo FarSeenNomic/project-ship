@@ -107,11 +107,12 @@ if __name__ == '__main__':
             if con == text:
                 print("No rolls found in story.")
             else:
-                story.seek(0)
-                story.write(con)
-                story.truncate()
-                subprocess.run(["git", "add", "story.txt"])
-                subprocess.run(["git", "commit", "-m", "Rolled die for story."])
+                story.seek(0)     # go to start of file
+                story.write(con)  # overwrite entire file
+                story.truncate()  # if shorter, delete rest
+                story.flush()     # push cache to disk for git
+                subprocess.run(["git", "add", "story.txt"]) # tell git you changed this bit and want to save it
+                subprocess.run(["git", "commit", "-m", "Rolled die for story."]) # save the story
                 print("Something spicy happened.")
     else:
         print("Cannot roll die while files are in limbo!")
