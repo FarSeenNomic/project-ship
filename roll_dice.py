@@ -110,6 +110,8 @@ if __name__ == '__main__':
                 story.seek(0)
                 story.write(con)
                 story.truncate()
+                subprocess.run(["git", "add", "story.txt"])
+                subprocess.run(["git", "commit", "-m", "Rolled die for story."])
                 print("Something spicy happened.")
     else:
         print("Cannot roll die while files are in limbo!")
