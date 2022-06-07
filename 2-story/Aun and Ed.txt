@@ -1,12 +1,12 @@
 Aun Milokaross and his twin brother Ed had been living on the side of a flattened asteroid for the past 12 years. Asteroid living hadn't been done as much for the past 120 years since the fad started since supplies either had to be catapulted, shipped in, or he had to take a few hours to go to the closest spaceport. The reason they chose to live on the side of an asteroid anyway? Once they got the house up, it was theirs in full. The only thing they needed to really pay for besides the normal air, food, and gravity generator bills was SpaceNetflix™. But more than money, the space. They weren't stuck in one of a thousand tiny, sardine-tin flats in a station; They had a full sized house, natural sunlight, and an amazing view of all of space.
 The brothers had slowly learned to be in sync, at first as a joke about being twins, but it became more useful over time in predicting what they both wanted to have for dinner, being on the same team in games, or team training back in school. They both had some amount of power, and minor control over time and space, respectively. Normally well respected powers, but too weak to utalize for anything more than party tricks. They both also had metalic neurons, both likely caused by some species in their lineage being from a planet with more heavy metals in the water.
 
-Aun Milokaross:
+Aun Milokaross: (5 HP)
 	Do Anything [1]
 		Phaser [2]
 	Time Manipulation [1]
 
-Ed Milokaross:
+Ed Milokaross: (5 HP)
 	Do Anything [1]
 		A Somewhat Sharp Wood Stick [2]
 	Space Manipulation [1]

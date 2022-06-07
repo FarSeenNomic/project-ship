@@ -1,7 +1,7 @@
-Pirate 一
+Pirate 一 5 HP
 Do Anything 1
 	Block 2
 
-Pirate 二
+Pirate 二 5 HP
 A Good Fist 2
 Do Anything 1
