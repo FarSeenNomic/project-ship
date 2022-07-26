@@ -1,0 +1,3 @@
+Magic Dagger
+	Thrown out of time, this dagger might have been lost forever.
+	Increses the level of magic channeled through it by 1
