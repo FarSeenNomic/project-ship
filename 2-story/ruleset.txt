@@ -3,17 +3,17 @@ Everyone starts with 0 XP, 5 HP and the basic skill 'Do Anything [1]'.
 Any time you preform an action by using a skill, you roll a number of d6's equal to it's level. If your roll is higher than the opposing value, you do it.
 Any time you take damage, you lose 1 HP.
 If you roll all 6s, you get a level up in that skill. Make a new skill based off of what you were doing with that action.
-Every roll you fail you get 1 XP.
-You can spend 1 XP to reroll a die (no limit to amount you can spend, how many times you can reroll a single or multiple die), but this only counts towards either making the action better or getting a level, not both.
-Or, you can spend XP equal to a skill's level to level up that skill.
+If your roll fails to beat the opposing value, you gain 1 XP.
+After a roll, you can spend XP equal to the number of 6s you were missing to level up that skill.
+Or at any time, you can spend XP equal to a skill's level to level up that skill immediately.
 
 For this story, also take 2 of:
-	* A level 2 skill of something you brought with you (Dagger=Stabbing [2]/Pistol=Shooting [2])
-	* A level 2 skill of a talent you trained in (Piloting [2]/Drone Control [2])
-	* A first level skill that you couldn't normally get, including:
+	* A level 2 skill of something you brought with you (Pistol=Shooting [2]/Dagger=Sharp dagger [2])
+	* A level 2 skill of a talent you trained in (Running [2]/Piloting [2])
+	* A level 1 skill that you couldn't normally get, including:
 		magical (Conjure/Precognition/Transmutation [1])
 		superpower (Telepathy/Invisibity/Telekinesis [1])
-		or non-magical (Hands that are just on fire /Omnilingualism [1])
+		or non-magical (Vamprism/Cyborg [1])
 
 Remember that if you take a first level skill, it is only going to be at the strength of any other first level skill like "Do Anything [1]". So your Precognition [1] might be enough to dodge someone's Punch [1], but might do nothing to help against Battle Drone Control [3] or Gun Trickshot [4].
 
@@ -22,6 +22,8 @@ Locked Wood Door:
 	Do Anything [1]: Does anything a door could normally do
 	Resist [2]: Resists breaking, being opened when it shouldn't be, opened the wrong way
 	Strong lock [3]: Doesn't like being lock picked
+
+This does imply that items in the world also have their own skills, that you gain access to when you interact with them, and can gain skills of their own. So instead of you getting better with your dagger [1], it might become a sharper dagger [2]. If you gave someone else the dagger, you wouldn't exactly have 'a sharper dagger [2]' anymore, but you'd still have 'stabbing skills [2]'
 
 Guide:
 The world and your character is mostly undefined. Think of them currently as an out of focus blurry figure. Make character neutral descriptions of your actions and when you attempt some actions and gain some skill ups related to them then your character will start to focus in and be defined.
@@ -51,9 +53,8 @@ Other ships might have:
 	Cloaking
 	Artillery Beam
 	Backup Battery
-	Clone Bay
+	Clone Bay: You can come back after dieing, but you lose a random skill.
 	Flak Artillery
 	Mind Control
 
-https://powerlisting.fandom.com/wiki/Magic
-https://ftl.fandom.com/wiki/The_Kestrel_Cruiser
+Yes, there are clear hint to FTL, this might help anyone who likes a good space theme: https://ftl.fandom.com/wiki/The_Kestrel_Cruiser
