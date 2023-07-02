@@ -1,0 +1,9 @@
+Universe [1] 1d100
+	By rolling against the universe, you lose the skill that you used to challenge it.
+	If you beat the universe, you can do something that is only considered spectacular, such as:
+		Channel the power into yourself; Increase every skill's level by 1.
+		Channel the universe's power into an item; add +n on to an item, where n is what the universe rolled.
+		Round out yourself; Increase the kind of die you roll to the next type (6 > 8 > 10 > 12 > 16 > 20).
+		Sharpen yourself; Decrease the kind of die you roll to the next type (6 > 4 > 2).
+		You found this, so you're aware that parallel universe "branches" can exist. There is now an entire branch dedicated to the skill you lost, where everyone has it at level 1. You can freely enter and exit this branch. The branch connects back whenever you wish.
+	Once you use a level of universe, you must always use the next level on the next use.
