@@ -8,8 +8,6 @@ If you are using the online github editor, then adding to the story is as simple
 If you are using an offline copy, then you can clone, update, and push the story as you would any other repository.
 To assist, there are 3 files that pull, commit, and push updates.
 
-For the offline version, the files are numbered in the order to use them.
-
 > 1-LoadUpdatesFromServer.bat
 
 Downloads and update changed bits of story from the server's copy.
