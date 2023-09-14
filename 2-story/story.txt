@@ -12,4 +12,4 @@ Noticing his friend stumble past, the first pirate yells "The battle's over ther
 
 Test roll [1d6 = (5) = 5]
 
-Test roll 2 {2d6}
+Test roll 2 [2d6 = (2+3) = 5]
